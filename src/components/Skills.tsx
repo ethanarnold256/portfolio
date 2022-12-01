@@ -29,7 +29,7 @@ function Skills() {
                         <li>PowerShell</li>
                         <li>X86_64</li>
                     </ul>
-                    <h2>Software</h2>
+                    <h2>Software & Services</h2>
                     <ul style={{display: "grid", gridTemplateColumns: "repeat(6, 1fr)"}}>
                         <li>Linux</li>
                         <li>BSD</li>
