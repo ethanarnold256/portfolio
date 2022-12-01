@@ -1,0 +1,94 @@
+$color-background: #ffffff
+$color-text: #000000
+
+$color-background: #000000
+$color-text: #ffffff
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=DM+Serif+Display&family=Oswald:wght@300;400&family=Poppins&display=swap')
+
+body
+    margin: 0
+    padding: 0
+    font-family: 'Poppins', sans-serif
+    background-color: $color-background
+    color: $color-text
+
+.page
+    margin: 4rem auto
+    max-width: 900px
+    display: grid
+    gap: 8rem 0
+    grid-template-columns: repeat(6, 1fr)
+
+.imageLeft
+    grid-column: 1 / 2
+    width: 100%
+    height: 100%
+    object-fit: contain
+    object-position: 0 8rem
+
+.sectionLeft
+    grid-column: 1 / 6
+
+.sectionRight
+    grid-column: 2 / 7
+
+#title, h1, h2, h3, h4, h5, h6
+    margin: 0
+    line-height: 2
+    font-family: 'DM Serif Display', serif
+
+h2, h3, h4, h5, h6
+    font-family: 'Oswald', sans-serif
+
+#title
+    font-size: 6rem
+
+h1
+    font-size: 4rem
+
+h2
+    font-size: 2rem
+
+h3
+    font-size: 1.5rem
+
+.content // only <p> goes in here
+    line-height: 2
+    display: grid
+    gap: 1rem
+
+p
+    margin: 0
+
+ul
+    margin: 0 0 0 2rem
+    padding: 0
+
+li
+    line-height: 2
+
+#name
+    font-family: 'Caveat', cursive
+    font-size: 1.5em
+    font-weight: bold
+    line-height: 0
+
+img
+    margin: 0
+    padding: 0
+
+.schoolGrid
+    display: grid
+    gap: 2rem
+    padding: 0
+    grid-template-columns: repeat(2, 1fr)
+    .school
+        width: 100%
+        h2
+            margin: auto
+            width: max-content
+        img
+            height: 4rem
+            width: 100%
+            object-fit: contain
